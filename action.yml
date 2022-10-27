@@ -8,16 +8,16 @@ inputs:
   image:
     description: 'Docker image to trigger the webhook for'
     required: true
-  hook-url:
+  hook_url:
     description: 'URL of the Keel native webhook to notify (including /v1/webhooks/native)'
     required: true
   tag:
     description: 'Tag of the image to notify Keel to deploy'
     required: true
-  basic-auth-user:
+  basic_auth_user:
     description: ''
     required: false
-  basic-auth-password:
+  basic_auth_password:
     description: ''
     required: false
 runs:
