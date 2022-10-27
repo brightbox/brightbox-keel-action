@@ -20,4 +20,4 @@ fi
 
 # Trigger the hook with curl
 
-curl --request POST $auth_string --header "Content-Type: application/json" --data "{'name': '$INPUT_IMAGE', 'tag': '$INPUT_TAG'}" $INPUT_HOOK_URL
+curl --request POST $auth_string --header "Content-Type: application/json" --data "{\"name\": \"$INPUT_IMAGE\", \"tag\": \"$INPUT_TAG\"}" $INPUT_HOOK_URL
