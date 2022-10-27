@@ -4,7 +4,6 @@ description: "GitHub Action to notify a Keel webhook to deploy an tagged image"
 author: 'Brightbox'
 branding:
   color: 'green'
-
 inputs:
   image:
     description: 'Docker image to trigger the webhook for'
@@ -21,7 +20,6 @@ inputs:
   basic-auth-password:
     description: ''
     required: false
-
 runs:
   using: 'docker'
   main: 'Dockerfile'
